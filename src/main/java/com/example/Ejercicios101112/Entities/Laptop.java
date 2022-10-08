@@ -1,7 +1,6 @@
-package com.example.Ejercicios456.Entities;
+package com.example.Ejercicios101112.Entities;
 
 import javax.persistence.*;
-import java.time.LocalDate;
 
 @Entity
 @Table(name = "Ordenador")

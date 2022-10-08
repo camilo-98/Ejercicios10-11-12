@@ -1,7 +1,7 @@
-package com.example.Ejercicios456;
+package com.example.Ejercicios101112;
 
-import com.example.Ejercicios456.Entities.Laptop;
-import com.example.Ejercicios456.Repository.LaptopRepository;
+import com.example.Ejercicios101112.Entities.Laptop;
+import com.example.Ejercicios101112.Repository.LaptopRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;

@@ -1,6 +1,6 @@
-package com.example.Ejercicios456.Controller;
+package com.example.Ejercicios101112.Controller;
 
-import com.example.Ejercicios456.Entities.Laptop;
+import com.example.Ejercicios101112.Entities.Laptop;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

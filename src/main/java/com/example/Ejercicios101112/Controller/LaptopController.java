@@ -1,12 +1,10 @@
-package com.example.Ejercicios456.Controller;
+package com.example.Ejercicios101112.Controller;
 
-import com.example.Ejercicios456.Entities.Laptop;
-import com.example.Ejercicios456.Repository.LaptopRepository;
+import com.example.Ejercicios101112.Entities.Laptop;
+import com.example.Ejercicios101112.Repository.LaptopRepository;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
