@@ -16,7 +16,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                .antMatchers("/bootStrap").hasRole("ADMIN")
+                .antMatchers("/api/laptops").hasRole("ADMINISTRADOR")
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
@@ -31,8 +31,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         auth
                 .inMemoryAuthentication()
                 .passwordEncoder(passwordEncoder())
-                .withUser("user").password(passwordEncoder().encode("password")).roles("USER").and()
-                .withUser("admin").password(passwordEncoder().encode("password")).roles("USER", "ADMIN");
+                .withUser("vendedor").password(passwordEncoder().encode("vendedor1")).roles("VENDEDOR").and()
+                .withUser("administrador").password(passwordEncoder().encode("administrador1")).roles("VENDEDOR", "ADMINISTRADOR");
 
     }
 
